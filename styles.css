@@ -89,12 +89,12 @@ header {
     color: var(--white-color);
     display: flex;
     flex-direction: column;
-    font-size: 2em;
+    font-size: 30px;
     width: 350px;
-    height: 220px;
+    height: 210px;
     min-width: 325px;
     padding: 20px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     margin: 15px;
     background-color: var(--main-color);
 }
