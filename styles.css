@@ -94,6 +94,7 @@ header {
     height: 210px;
     min-width: 325px;
     padding: 20px;
+    padding-bottom: 30px;
     margin: 15px;
     background-color: var(--main-color);
 }
@@ -104,7 +105,9 @@ header {
     color: black;
     cursor: pointer;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 0px;
+    /* margin-bottom: 10px; */
+
     width: 150px;
     /* outline: none; */
     padding: 0.85rem 2rem;
