@@ -91,7 +91,7 @@ header {
     flex-direction: column;
     font-size: 2em;
     width: 350px;
-    height: 290px;
+    height: 210px;
     min-width: 325px;
     padding: 20px;
     margin: 15px;
@@ -209,6 +209,7 @@ header {
 .ui {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .ui h3 {
     margin-left: 20px;
@@ -216,7 +217,7 @@ header {
     border-radius: 20px;
     width: 100px;
     height: 40px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     padding-top: 20px;
 }
 .topic {
@@ -254,12 +255,10 @@ header {
 }
 .solid {
     display: flex;
-    margin: 10px 0px 20px 20px;
-    
+    margin: 10px 20px 20px 20px;
+    justify-content: space-between;
 }
-.solid span {
-    margin-left: 40px;
-}
+
 .word {
     margin: 20px 0px 10px 120px;
     border-top: 2px solid var(--main-color-dark);
@@ -285,17 +284,20 @@ header {
     color: #777;
 }
 .cs {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 250px;
    font-size: 15px;
     border: 2px solid var(--gray-gradient);
     width: 37%;
     border-radius: 10px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    text-align: center;
     background: var(--gray-gradient);
     color: var(--text-color);
 }
+
 .fifthsection {
     display: grid;
     height: 550px;
@@ -401,7 +403,7 @@ header {
     height: 40px;
     width: 400px;
     border-radius: 30px;
-    border: 2px solid var(--main-color);
+    border: 2px solid #d8d6d6;
 }
 .lip {
     font-size: 30px;
@@ -436,7 +438,7 @@ header {
 }
 .sticker h3 {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .sticker1 i{
     margin-top: 5px;
